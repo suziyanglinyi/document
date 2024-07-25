@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Mind Docs',
+  tagline: '快速、稳定、准确、完善是Mind Work Center工作的原则',
+  favicon: ' img/mind-icon.4189c8d.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -66,10 +66,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Mind',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Mind Logo',
+          src: 'img/mind-icon.4189c8d.png',
         },
         items: [
           {
@@ -137,5 +137,8 @@ const config = {
       },
     }),
 };
+
+// 在 docusaurus.config.js 或 siteConfig.js 中
+
 
 export default config;
