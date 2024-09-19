@@ -32,26 +32,25 @@ collections:
         - { name: url, label: URL, widget: string }
         - { name: imageUrl, label: ImageURL, widget: string }
 
-- name: docs
-  label: "docs"
-  folder: docs
-  identifier_field: title
-  extension: md
-  widget: "list"
-  create: true
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  fields:
-    - { name: title, label: Title, widget: string }
-    - { name: body, label: Body, widget: markdown }
-    - { name: slug, label: Slug, widget: string }
+
+- name: "tutorials"  # 这个是在CMS中用来引用的唯一名称
+  label: "Tutorials"  # 这是在CMS界面上显示的名称
+  folder: "tutorials"  # 存放文档的文件夹
+  create: true  # 允许在CMS中创建新文档
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"  # 文件名模板
+  fields:  # 在CMS中配置的字段
+    - { name: "title", label: "Title", widget: "string" }
+    - { name: "body", label: "Body", widget: "markdown" }
+    - { name: "slug", label: "Slug", widget: "string" }
     - label: "Tags"
-      name: "tags"
+      name: "tags
       widget: "list"
     - label: "Authors"
       name: "authors"
       widget: "list"
       fields:
-        - { name: name, label: Name, widget: string }
-        - { name: title, label: Title, widget: string }
-        - { name: url, label: URL, widget: string }
-        - { name: imageUrl, label: ImageURL, widget: string }
+        - { name: name, label: "Name", widget: "string" }
+        - { name: title, label: "Title", widget: "string" }
+        - { name: url, label: "URL", widget: "string" }
+        - { name: imageUrl, label: "Image URL", widget: "image" }
+
