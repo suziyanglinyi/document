@@ -63,6 +63,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // giscus options
+      giscus: {
+        repo: 'suziyanglinyi/document', // edit this
+        repoId: 'R_kgDOMz1wWQ', // edit this
+        category: 'Announcements',
+        categoryId: 'DIC_kwDOMz1wWc4Cimg1', // edit this
+      },
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
