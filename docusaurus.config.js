@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Mind Docs',
   tagline: '快速、稳定、准确、完善是Mind Work Center工作的原则',
-  favicon: ' img/mind-icon.4189c8d.png',
+  favicon: 'img/mind-icon.4189c8d.png',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
